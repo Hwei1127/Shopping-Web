@@ -1,81 +1,25 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
             rel="stylesheet"
-            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-            crossorigin="anonymous"
         />
-        <link
+        <!-- <link
+            href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
             rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-        />
-
-        <link rel="stylesheet" href="style.css" />
+        /> -->
+        <title>Bootstrap Example</title>
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        ></script>
     </head>
+
     <body>
-        <div class="hero">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid header">
-                    <div class="header-logo">
-                        <a class="navbar-brand" href="./index.html"
-                            ><img
-                                src="https://cdn11.bigcommerce.com/s-fz2bnmwg7y/images/stencil/250x100/jellycat-logo-250x100_1707353282__97555.original.png"
-                                class="logo"
-                        /></a>
-                    </div>
-                    <form class="d-flex" role="search">
-                        <button class="btn" type="submit">
-                            <i class="bi bi-search"></i>
-                        </button>
-                        <input
-                            class="form-control me-2"
-                            type="search"
-                            placeholder="Search Our Collection..."
-                            aria-label="Search"
-                        />
-                    </form>
-                </div>
-            </nav>
-            <hr />
-
-            <nav class="navbar navbar-expand-lg container-fluid">
-                <div>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-
-                <div class="navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">New</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Animals</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Accessories</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Jelly Journal</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <!-- Example Code Start-->
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
                 <button
@@ -167,16 +111,35 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
-        <footer>
-            
-        </footer>
-
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"
-        ></script>
-        <script src="./scripts.js"></script>
+        <!-- Example Code End -->
     </body>
+
+    <style>
+        #slider-1 {
+            background-color: rgb(27, 57, 13);
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            color: white;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 80px;
+        }
+
+        .text h3 {
+            margin-bottom: 30px;
+        }
+
+        #slider-2 {
+            background-color: rgb(255, 243, 167);
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            color: rgb(32, 32, 32);
+        }
+    </style>
 </html>
